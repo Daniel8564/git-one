@@ -60,15 +60,15 @@
 ////
 ////!((str || msg) && i)
 //
-////var age=prompt("How old are you (years)? ");
-////if(age<18){
-////	alert("Sorry, you are not allowed to enter the venue.");
-////}
-////else if (age<21){
-////	alert("You can enter but you are not allowed to have drinks.");
-////}
-////else {
-////	alert("You are old enough to enter the venue and have drinks!");
+var age=prompt("How old are you (years)? ");
+if(age<18){
+	alert("Sorry, you are not allowed to enter the venue.");
+}
+else if (age<21){
+	alert("You can enter but you are not allowed to have drinks.");
+}
+else {
+	alert("You are old enough to enter the venue and have drinks!");
 ////}
 //
 //
