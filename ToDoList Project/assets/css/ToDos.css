@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+body {
+	background: purple;
+}*/
+body {
+	font-family: 'Roboto', sans-serif;
+	background: #00c3ff;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+h1 {
+	background-color: #2980b9;
+	color: white;
+	margin: 0;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+}
+ul {
+	/*	Get Rid of bullet point*/
+	list-style: none;
+	padding-left: 0;
+}
+li {
+	background-color: #fff;
+	height: 40px;
+	/*	Make the line in the center*/
+	line-height: 40px;
+	color: #666;
+}
+input {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	/*	To make the input box in line with ul*/
+	box-sizing: border-box;
+	color: #2980b9;
+	/*	To make the border of input inlines with ul*/
+	border: 3px solid rgba(0,0,0,0);
+}
+span {
+	background-color: red;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	/*	To make the hover dynamic animation*/
+	transition: .35s linear;
+	/*	To diapear the opaque trash item when no hovering*/
+	opacity: 0;
+}
+#container {
+	/*	background:gray;*/
+	width: 360px;
+	margin: 100px auto;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+	background-color: #f7f7f7;
+}
+.completed {
+	color: gray;
+	text-decoration: line-through;
+}
+/*To make the animation with trash icon*/
+li:hover span {
+	width: 40px;
+	opacity: 1;
+}
+li:nth-child(2n) {
+	background-color: #f7f7f7;
+}
+input:focus {
+	background: white;
+	border: 3px solid #2980b9;
+	outline: none;
+}
+.fa-plus {
+	float: right;
+}

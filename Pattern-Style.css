@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.special {
+	
+	background-image: url("https://images.unsplash.com/photo-1547414876-def1cc35dcbc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80")  ;
+	
+/*	background-imag: center center / cover no-repeat;*/
+}
