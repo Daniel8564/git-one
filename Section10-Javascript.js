@@ -54,10 +54,10 @@
 ////!!NaN;
 ////!!undefined;
 ////
-////var str="";
-////var msg="hahah";
-////var i="false";
-////
+var str="";
+var msg="hahah";
+var i="false";
+
 ////!((str || msg) && i)
 //
 var age=prompt("How old are you (years)? ");
