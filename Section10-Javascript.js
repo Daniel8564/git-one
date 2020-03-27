@@ -158,7 +158,7 @@ while(i<str.length){
 ////		i++;
 ////	
 ////}
-alert("Yay, we finally made it!");
+//alert("Yay, we finally made it!");
 
 ////var i=prompt("Are we there yet?");
 ////while (i.indexOf("yes")===-1 && i.indexOf("yeah")===-1){
