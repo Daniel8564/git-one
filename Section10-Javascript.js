@@ -111,13 +111,13 @@ else {
 ////	i+=5;
 ////}
 ////
-////var str="hello";
-////
-////var i=0;
-////while(i<str.length){
-////	console.log(str[i]);
-////	i++;
-////}
+var str="hello";
+
+var i=0;
+while(i<str.length){
+	console.log(str[i]);
+	i++;
+}
 //
 ////var i=-10;
 ////while (i<=19){
